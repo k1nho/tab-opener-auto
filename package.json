@@ -1,0 +1,15 @@
+{
+  "name": "opentabs",
+  "version": "1.0.0",
+  "description": "Node script to automate tab opening and handle series episode count",
+  "main": "browserops.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "k1nho",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "open": "^8.4.0"
+  }
+}
