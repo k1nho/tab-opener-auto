@@ -1,5 +1,5 @@
 const open = require("open");
-const series = require("./series2.json");
+const series = require("./series.json");
 const { join } = require("path");
 const { writeFile } = require("fs");
 require("dotenv").config();
