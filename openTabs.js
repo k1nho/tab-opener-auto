@@ -13,8 +13,6 @@ for (let i = 2; i < flagLen && i < 5; i++) {
   FLAGS[i - 2] = process.argv[i];
 }
 
-console.log(process.env.BASE_PATH);
-
 function main() {
   // OPEN URLS IN CHROME
   const BASE_PATH =
